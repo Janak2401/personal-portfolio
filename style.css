@@ -1,0 +1,244 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Merriweather', serif;
+}
+
+body {
+	background-color: #f1faee;
+}
+
+main {
+	margin-left: 10%;
+	margin-right: 10%;
+	color: #000000;
+}
+
+header {
+	text-align: center;
+	background-color: #1d3557;
+	color: #f1faee;
+	font-size: 18px;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.hero-container {
+	margin-top: 10px;
+}
+
+.container {
+	background-color: #a8dadc;
+	border: 2px solid #000000;
+	border-radius: 8px;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.about-container {
+	display: grid;
+}
+
+.lg-main-contact {
+	display: none;
+}
+
+.about-text {
+	margin-top: 8px;
+}
+
+.contact-button {
+	padding: 5px;
+	font-size: 18px;
+	background-color: #457b9d;
+	color: #ffffff;
+	border: none;
+	border-radius: 6px;
+	margin: 5px auto;
+}
+
+li {
+	margin-left: 10px;
+}
+
+.lang-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	width: 100%;
+}
+
+.lang-logo {
+	width: 50px;
+}
+
+.flutter-logo {
+	padding-left: 5px;
+	width: 128px;
+	height: 40px;
+}
+
+.tech-logo {
+	margin-left: 6px;
+	width: 60px;
+	height: 60px;
+}
+
+footer {
+	margin-top: 15px;
+	text-align: center;
+}
+
+#modal {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.modal-container {
+	margin: 35% auto;
+	width: 70%;
+	padding: 20px;
+	color: #1d3557;
+	background-color: #f1faee;
+	border: 1px solid #1d3557;
+	border-radius: 8px;
+}
+
+.modal-contact-text {
+	font-size: 24px;
+}
+
+.modal-close {
+	float: right;
+	font-size: 24px;
+	background-color: #e63946;
+	color: #ffffff;
+	padding: 0 8px;
+	border-radius: 4px
+}
+
+.modal-content {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	font-size: 18px;
+}
+
+.contact-logo-container {
+	display: flex;
+	margin-top: 10px;
+	justify-content: space-evenly;
+}
+
+.contact-link {
+	width: 48px;
+	height: 48px;
+}
+
+.contact-logo {
+	width: 100%;
+	height: 100%;
+}
+
+.work-container {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding-bottom: 16px;
+}
+
+.work-photo {
+	width: 100%;
+}
+
+.work-text {
+	font-size: 18px;
+	width: 100%;
+	color: #1d3557;
+}
+
+@media (min-width: 1024px) {
+	header {
+		font-size: 48px;
+	}
+
+	.hero-container {
+		margin-top: 30px;
+	}
+
+	.container {
+		padding: 30px;
+		font-size: 36px;
+		color: #1d3557;
+	}
+
+	.about-text{
+		font-size: 32px;
+	}
+
+	.contact-button {
+		font-size: 28px;
+		border-radius: 8px;
+	}
+
+	.lang-container {
+		justify-content: space-evenly;
+	}
+
+	.lang-logo {
+		width: 100px;
+	}
+
+	.flutter-logo {
+		width: 300px;
+		height: auto;
+	}
+
+	.tech-logo {
+		width: 128px;
+		height: 128px;
+	}
+
+	.work-container {
+		padding-bottom: 0px;
+		gap: 12px;
+	}
+
+	.work-text {
+		text-align: center;
+		font-size: 24px;
+	}
+
+	.contact-button {
+		display: none;
+	}
+
+	.lg-main-contact {
+		display: block;
+		margin-top: 28px;
+	}
+
+	.lg-contact-content {
+		display: flex;
+		gap: 20px;
+		align-items: center;
+	}
+
+	.contact-link {
+		padding-left: 10px;
+		width: 80px;
+		height: 80px;
+	}
+
+	.github-link {
+		width: 96px;
+		height: 96px;
+	}
+}

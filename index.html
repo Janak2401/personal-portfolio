@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- JS file -->
+	<script type="text/javascript" src="index.js"></script>
+
+	<!-- Merriweather Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+	
+	<!-- CSS file -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Font Awesome cdn link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<title>Portfolio</title>
+</head>
+
+<body>
+	<header>
+		<h1>Janak Khorgade</h1>
+		<p>App & Full Stack Web developer</p>
+	</header>
+
+	<main>
+		<!-- Contact Modal -->
+		<section id="modal" tabindex="-1">
+			<div class="modal-container">
+
+				<span class="modal-contact-text">Contact at</span>
+				<span class="modal-close" aria-hidden="true" onclick="modalHide()">&times</span>
+				<hr>
+				<br>
+
+				<div class="modal-content">
+					<i class="fas fa-mobile-alt">&nbsp&nbsp+917738737932</i>
+					<i class="far fa-envelope">&nbsp&nbspjanak24fop@gmail.com</i>
+					<div class="contact-logo-container">
+						<a class="contact-link" href="https://github.com/Janak2401"><img src="assets/github-logo.png" class="contact-logo"></a>
+						<a class="contact-link" href="https://www.linkedin.com/in/janak-khorgade-513b621a2/"><img src="assets/linkedin.png" class="contact-logo"></a>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+
+		<!-- Main Content Starts -->
+		<section class="hero-container">
+			<div class="container about-container">
+				<h3>About Me</h3>
+				<p class="about-text">
+					Hello, my name is Janak Khorgade, and my portfolio is a representation of all that I've learned and accomplished as a programmer.
+					I love developing websites and android apps and am looking for more opportunities to work.
+				</p>
+
+				<div class="lg-main-contact">
+					<h3 class="lg-contact-text">Contact Me</h3>
+					<div class="lg-contact-content">
+						<i class="fas fa-mobile-alt">&nbsp&nbsp+917738737932&nbsp<span style="font-size: 40px;">|</span></i>
+						<i class="far fa-envelope">&nbsp&nbspjanak24fop@gmail.com&nbsp<span style="font-size: 40px;">|</span></i>
+						<a class="contact-link github-link" href="https://github.com/Janak2401"><img src="assets/github-logo.png" class="contact-logo"></a>
+						<a class="contact-link" href="https://www.linkedin.com/in/janak-khorgade-513b621a2/"><img src="assets/linkedin.png" class="contact-logo"></a>
+					</div>
+				</div>
+
+				<button class="contact-button" onclick="modalShow()">Contact Me</button>
+			</div>
+		</section>
+
+		<section class="hero-container">
+			<div class="container">
+				<h3>My Skills</h3>
+				<br>
+				<ul>
+					<li>Languages & Frameworks:</li>
+					<br>
+						<div class="lang-container">
+							<img src="assets/html5.png" alt="html5 logo" class="lang-logo">
+							<img src="assets/css3.png" alt="css3 logo" class="lang-logo">
+							<img src="assets/javascript.png" alt="javascript logo" class="lang-logo">
+							<img src="assets/c.png" alt="c logo" class="lang-logo">
+							<img src="assets/flutter.png" alt="flutter logo" class="flutter-logo">
+						</div>
+					<br>
+					<li>Technologies:</li>
+					<br>
+						<div class="lang-container">
+							<img src="assets/android-studio.png" alt="android studio logo" class="tech-logo">
+							<img src="assets/vs-code.png" alt="visual studio code logo" class="tech-logo">
+							<img src="assets/sublime-text.png" alt="sublime text logo" class="tech-logo">
+						</div>
+				</ul>
+				
+			</div>
+		</section>
+
+		<section class="hero-container">
+			<div class="container">
+				<h3>My Works</h3>
+				<br>
+				<div class="work-container">
+					<img class="work-photo" src="assets/arcady.png" alt="project photo">
+					<a class="work-text" href="https://janak2401.github.io/hackathon_sdg_devpost/">Arcady- A hackathon project based on UN's sustainable goals.</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy Janak Khorgade 2021</p>
+	</footer>
+</body>
+</html>
